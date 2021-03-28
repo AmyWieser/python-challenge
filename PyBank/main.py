@@ -70,6 +70,8 @@ with open(budget_data) as csvfile:
 
 
 # Print finacial data
+print(f"Financial Analysis")
+print("--------------------------------------------")
 print(f"Total Months: {str(month_counter)}")
 print(f"Total P/L: ${str(total_pl)}")
 print(f"Average Change in P/L: ${str(avg_change)}")
@@ -77,6 +79,8 @@ print(f"Greatest Increase in P/L {greatest_increase_month} ${greatest_increase_p
 print(f"Greatest Decrease in P/L {greatest_decrease_month} ${greatest_decrease_pl}")
 
 sys.stdout = open('log.txt', 'w')
+print(f"Financial Analysis")
+print("--------------------------------------------")
 print(f"Total Months: {str(month_counter)}")
 print(f"Total P/L: ${str(total_pl)}")
 print(f"Average Change in P/L: ${str(avg_change)}")

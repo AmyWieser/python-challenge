@@ -1,3 +1,5 @@
+Financial Analysis
+--------------------------------------------
 Total Months: 86
 Total P/L: $38382578
 Average Change in P/L: $-2315.12
